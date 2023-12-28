@@ -237,14 +237,7 @@ button :hover{
     flex-wrap: wrap;
 }
 
-.about-col-1{
-    flex-basis:35%;
 
-}
-.about-col-1 img{
-    width:60%;
-    border-radius:15px;
-}
 .about-col-2{
     flex-basis:60%;
 }
@@ -295,6 +288,10 @@ button :hover{
 }
 
 /* ====================Contact=================== */
+.container{
+    display: flex;
+    justify-content:space-around;
+}
 .contact-left{
     flex-basis: 35%;
 
