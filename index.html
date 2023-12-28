@@ -13,10 +13,10 @@
     <header class="header">
         <a href="#" class="logo">portfolio</a>
         <nav class="navbar">
-           <a href="#"  class="active" style="--i:1">Home</a>
-            <a href="#" style="--i:2" >About</a>
-             <a href="#" style="--i:3">Skills</a>
-             <a href="#" style="--i:4">Contact</a>
+           <a href="#header"  class="active" style="--i:1">Home</a>
+            <a href="#about" style="--i:2" >About</a>
+             <a href="#skills" style="--i:3">Skills</a>
+             <a href="#contact" style="--i:4">Contact</a>
         </nav>
     </header>
     <!-- =============img-section============= -->
@@ -29,16 +29,92 @@
                  Ratione, animi? Non omnis vitae iure fugiat maiores explicabo iusto consequatur
                   quo dignissimos excepturi ex quod repellat, 
                 vel molestias voluptates dolor laborum!</p>
-           <a href="www.linkedin.com/in/priyanka-sagam" target="_blank" ><i class="uil uil-linkedin" style="--i:5"></i></a>
+           <a href="https://linkedin.com/in/priyanka-sagam/" target="_blank" ><i class="uil uil-linkedin" style="--i:5"></i></a>
           
            <a href="https://priyankasagam.github.io/Minnu/" target="_blank" ><i class="uil uil-github" style="--i:6"></i></a>
-       <button class = "btn">Download CV</button>
+      <a href="PriyankaSagam_Resume.docx"> <button class = "btn">Download CV</button></a>
         </div>
       <div>
         <img  class="img" src="PriyankaSagam.jpg" alt="my pic">
       </div>
 
     </div>
+<!-- ==================About================= -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img class="img" src="PriyankaSagam.jpg" alt="my pic">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error facere necessitatibus porro dolor. Dolores cumque id ad accusamus, obcaecati sit! Inventore labore tempore sequi iste magnam quisquam distinctio! Maiores, sed.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div  class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVA SCRIPT</li>
+                            <li>REACT</li>
+                            <li>NODE JS</li>
+                            <li>EXPRESS</li>
+                            <li>MONGO DB</li>
+                        </ul>
+                    </div>
+                    <div  class="tab-contents" id="experience">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet in dolorum tempora excepturi provident fuga, minus quos veritatis, dolore tenetur quasi? Mollitia, quam assumenda. Fuga fugiat accusamus delectus officia inventore!</p>
+                    </div>
+                    <div  class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>PerScholas BootCamp</li>
+                            <li><span>2010</span><br>Master Of Computer Applications</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<!-- ======================contact========================= -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="uil uil-at"></i>contact@example.com</p>
+                <p><i class="uil uil-phone"></i>0123456789</p>
+                <div>
+                    <a href="www.linkedin.com/in/priyanka-sagam" target="_blank" ><i class="uil uil-linkedin" style="--i:5"></i></a>
+
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name='submit-to-google-sheet'>
+                    <input type="'text" name="Name" placeholder="Your Name" required>
+                    <input type="'email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Priyanka<i class="uil uil-heart"></i></p>
+    </div>
+</div>
+
+    <script src="script.js"></script> 
+
 
 </body>
 </html>
