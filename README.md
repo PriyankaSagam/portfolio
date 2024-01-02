@@ -16,4 +16,4 @@ app.diagrams.net
 
 # Font => google font
 
-# google form =>github.com/jamiewilson/form-to-go-google-sheets
+# google form =>https://github.com/jamiewilson/form-to-google-sheets
