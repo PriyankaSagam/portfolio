@@ -9,3 +9,11 @@ app.diagrams.net
 # HTML
 # CSS
 # JAVASCRIPT-DOM
+
+# icons => iconscout.com/unicons
+
+# wireframes =>   app.diagrams.net
+
+# Font => google font
+
+# google form =>github.com/jamiewilson/form-to-go-google-sheets
